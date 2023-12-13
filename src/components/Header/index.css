@@ -1,0 +1,53 @@
+.head-con-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-nav-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 12px rgba(255, 255, 255, 1);
+  background-color: #ffffff;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.heading {
+  color: #000000;
+  font-family: "Roboto";
+  margin: 5px;
+}
+
+.para {
+  color: #000000;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(11, 54, 134);
+  color: #ffffff;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 15px;
+}
